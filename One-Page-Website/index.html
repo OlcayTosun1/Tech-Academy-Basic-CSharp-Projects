@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olcay Tosun - One Page Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+```
+<header>
+    <h1>Olcay Tosun's One-Page Website</h1>
+    <p>JavaScript Assignment - Lightbox Image Gallery</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome</h2>
+    <p>
+        This one-page website was created for my JavaScript assignment.
+        It includes a functional lightbox modal image gallery.
+    </p>
+</section>
+
+<section id="gallery">
+    <h2>Photo Gallery</h2>
+    <p>Click any image below to open the lightbox gallery.</p>
+
+    <div class="gallery">
+        <img src="https://picsum.photos/id/1015/600/400" alt="Mountain view" onclick="openLightbox(0)">
+        <img src="https://picsum.photos/id/1016/600/400" alt="River view" onclick="openLightbox(1)">
+        <img src="https://picsum.photos/id/1025/600/400" alt="Dog photo" onclick="openLightbox(2)">
+        <img src="https://picsum.photos/id/1035/600/400" alt="Forest view" onclick="openLightbox(3)">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Created by Olcay Tosun for The Tech Academy JavaScript course.</p>
+</section>
+
+<div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+    <img id="lightbox-img" src="" alt="Large gallery image">
+    <button class="next" onclick="changeImage(1)">&#10095;</button>
+</div>
+
+<footer>
+    <p>&copy; 2026 Olcay Tosun</p>
+</footer>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
