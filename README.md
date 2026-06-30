@@ -1,6 +1,3 @@
-# Tech-Academy-Basic-CSharp-Projects
-This repository contains coding projects completed for The Tech Academy Basic C# course.
-
 # The Tech Academy Basic C# Projects
 
 This repository contains coding projects completed for The Tech Academy Basic C# course.
